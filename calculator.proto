@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package rpcfw;
-option go_package = "github.com/pangpy/rpcfw";
+option go_package = "github.com/pangpy/rpcfw/calculator";
 service Calculator {
   rpc Add (AddRequest) returns (AddResponse);
 }

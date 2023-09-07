@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	pb "github.com/pangpy/rpcfw/calculator.pb.go"
+	pb "github.com/pangpy/rpcfw/calculator"
 	"google.golang.org/grpc"
 	"log"
 	"net"
